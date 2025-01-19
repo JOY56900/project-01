@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#hero {
+
+
+    background: linear-gradient(00deg, rgb(9, 9, 9) 2.884%,
+    rgba(16, 16, 16, 0) 101.034%),url(../assets/hero-bg.png);
+
+height: 689px;
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container {
+    width:767px;
+
+}
+.subtitle {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.title {
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+}
+.bio {
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13.5px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+    }
